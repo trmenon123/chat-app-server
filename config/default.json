@@ -1,0 +1,12 @@
+{
+    "database": "mongodb+srv://chatAppUsername:chatAppPassword@chatappcluster.a3uvsve.mongodb.net/?retryWrites=true&w=majority",
+    "server": {
+        "port": 8000
+    },
+    "crypt": {
+        "rounds": 13
+    },
+    "jwt": {
+        "secret": "bdiw5479bnfjeifh985793nflenf8967859060"
+    }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "node-express-server",
+  "version": "1.0.0",
+  "description": "Node Runtime, with express server and MongoDB as database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-server": "nodemon index.jsnpm install"
+  },
+  "author": "Tushar Ramdas Menon",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.1",
+    "config": "^3.3.7",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "express-jwt": "^7.7.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.7",
+    "nodemon": "^2.0.15",
+    "uuid": "^8.3.2"
+  }
+}
